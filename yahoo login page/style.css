@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family:'Public Sans', sans-serif; ;
+}
+
+body {
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 40rem;
+
+}
+.header {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    width: initial;
+    width: 100%;
+}
+
+#logo-nav {
+    height: 36px;
+    width: 120px;
+    margin: 2em;
+    margin-left: 2em;
+    background-color: white;
+}
+
+a {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    margin-right: 3em;
+    background-color: white;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 100%;
+    position: relative;
+    height: 40rem;
+}
+
+
+.loginform {
+    background-color:white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 35rem;
+    width: 25rem;
+}
+
+#google-img {
+    height: 20px;
+    width: 20px;
+}
+
+#yahoo-img {
+    height: 36px;
+    width: 120px;
+}
+
+.chkbox_and_forgot_password{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+h1 {
+    font-size: 1.5rem bold;
+    padding: 0.5rem 0px;
+}
+
+input {
+    margin: 1rem 0px;
+}
+
+.paragraph1 {
+    padding: 1rem 0px;
+    font-size: 0.8rem;
+}
+
+.google {
+    border: 0.5px solid black;
+    width: 15rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 90px;
+}
+#google {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: black;
+}
+#create-account {
+    border: 0.5px solid #188FFF;
+    width: 15rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 90px;
+    color: #188FFF;
+}
+
+#next {
+    width: 15rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 90px;
+    background-color: #188FFF;
+    color: white;
+}
+
+#name {
+    background-color: white;
+    border: 1px solid white;
+    width: 20rem;
+    border-bottom:1px solid black ;
+
+}
+
+#next,#google,#create-account,.chkbox_and_forgot_password,a {
+    margin-left: 37px;
+}
+
+#google,#create-account {
+    margin-top: 1rem ;
+    margin-bottom: 1rem ;
+}
+
+#forgot {
+    margin-left: 1rem;
+}
+#stay-signed {
+    margin-left: 1rem;
+    position: absolute;
+}
