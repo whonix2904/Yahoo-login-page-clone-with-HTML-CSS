@@ -16,6 +16,14 @@ body {
     flex-direction: column;
     height: 40rem;
 }
+
+
+.container {
+margin-inline : 1.5rem;
+width: 1220px;
+}
+
+
 .header {
     display: flex;
     background-color: white;
